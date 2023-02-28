@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Colculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="main">
+            <div class="cal">
+                <h1>Tip Calcutater</h1>
+                <hr>
+            </div>
+            <label>Total bill</label>
+            <input type="number" id="totalbill" placeholder="Enter Your total bill:"required>
+            <label>Tip percentage</label>
+            <input id="tipPer" class="tipPer" type="number" placeholder="Tip percentage"required>
+            <label>Number of people</label>
+            <input id="noPer" type="number"  placeholder="Enter number of people:"required>
+            <div class="btn">
+            <button type="submit">calculate</button>
+           </div>
+        </div>
+    <div class="ans">
+        <h1>total</h1>
+        <hr>
+        <div>
+            <label class="lab">Bill Amount</label>
+            <label class="price p1">$ 0.00</label>
+        </div>
+        <div>
+            <label class="lab">Tip Amount</label>
+            <label class="price p2">$ 0.00</label>
+        </div>
+        <div>
+            <label class="lab">Total Bill</label>
+            <label class="price p3">$ 0.00</label>
+        </div>
+        <div>
+            <label class="lab">each Person pays</label>
+            <label class="price p4">$ 0.00</label>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

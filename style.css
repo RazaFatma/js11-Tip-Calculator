@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans', sans-serif;
+}
+/* body {
+     width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+} */
+
+.main {
+    width: 50%;
+    height: 100vh;
+    background-color: #101820FF;
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+     
+}
+.cal{
+    font-size: 15px;
+}
+.cal h1 {
+    padding: 20px;
+    padding-left: 0;
+    color: #F2AA4CFF;
+}
+.main label {
+    font-size: 1.4rem;
+    color: #F2AA4CFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ans label {
+    color: #101820FF;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid  #F2AA4CFF;
+    border-radius: 5px;
+    background-color:  #F2AA4CFF;
+}
+.btn{
+    text-align: center;
+}
+.btn button {
+    margin: 10px;
+    padding: 10px 20px;
+    align-items: center;
+    border: 1px solid #F2AA4CFF;
+    border-radius: 5px;
+    background-color: #F2AA4CFF;
+}
+.btn button:hover {
+    background-color: black;
+    color: #F2AA4CFF;
+}
+.ans {
+    width: 50%;
+    height: 100vh;
+    color: #101820FF;
+    padding: 60px;
+    background-color: #F2AA4CFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: right;
+}
+
+.cal hr {
+    background-color: #F2AA4CFF;
+    border: none;
+    height: 1.5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.lab {
+    float: left;
+}
+
+.price {
+    float: right;
+}
+.ans hr {
+    background-color: black;
+    border: none;
+    height: 1.5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.main ::placeholder {
+    color: black;
+    font-size: 12px;
+}
